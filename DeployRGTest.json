@@ -1,12 +1,33 @@
+
+
 {
-  "type": "Microsoft.Resources/resourceGroups",
-  "apiVersion": "2021-04-01",
-  "name": "string",
-  "location": "string",
-  "tags": {
-    "tagName1": "tagValue1",
-    "tagName2": "tagValue2"
+  "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "ResourceGroupName": {
+      "type": "string",
+      "metadata": {
+        "description": "Name of the resourceGroup to create"
+      }
+    },
+    "ResourceGroupLocation": {
+      "type": "string",
+      "defaultValue": "[deployment().location]",
+      "metadata": {
+        "description": "Location for the resourceGroup"
+      }
+    }
   },
-  "managedBy": "string",
-  "properties": {}
+  "resources": [
+    {
+      "type": "Microsoft.Resources/resourceGroups",
+      "apiVersion": "2020-06-01",
+      "name": "[parameters('ResourceGroupName')]",
+      "location": "[parameters('ResourceGroupLocation')]",
+      "tags": {
+        "ambiente": "prueba"
+      },
+      "properties": {}
+    }
+  ]
 }

@@ -1,0 +1,5 @@
+"Name","ResourceGroupName","ResourceType","Location","ResourceId","Tags"
+"cs210032001e16ba2c2","cloud-shell-storage-eastus","Microsoft.Storage/storageAccounts","eastus","/subscriptions/a99edff8-9a7a-430f-86fa-8c4a9c67da60/resourceGroups/cloud-shell-storage-eastus/providers/Microsoft.Storage/storageAccounts/cs210032001e16ba2c2","@{ms-resource-usage=azure-cloud-shell; environment=test}"
+"NetworkWatcher_eastus","NetworkWatcherRG","Microsoft.Network/networkWatchers","eastus","/subscriptions/a99edff8-9a7a-430f-86fa-8c4a9c67da60/resourceGroups/NetworkWatcherRG/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus","@{environment=test}"
+"vnet1","testing-rg","Microsoft.Network/virtualNetworks","eastus","/subscriptions/a99edff8-9a7a-430f-86fa-8c4a9c67da60/resourceGroups/testing-rg/providers/Microsoft.Network/virtualNetworks/vnet1","@{environment=test}"
+"vnet2","testing-rg","Microsoft.Network/virtualNetworks","eastus","/subscriptions/a99edff8-9a7a-430f-86fa-8c4a9c67da60/resourceGroups/testing-rg/providers/Microsoft.Network/virtualNetworks/vnet2","@{environment=test}"

@@ -1,3 +1,0 @@
-"Name","ResourceGroupName","ResourceId","Tags"
-"vnet1","testing-rg","/subscriptions/a99edff8-9a7a-430f-86fa-8c4a9c67da60/resourceGroups/testing-rg/providers/Microsoft.Network/virtualNetworks/vnet1","@{environment=test}"
-"vnet2","testing-rg","/subscriptions/a99edff8-9a7a-430f-86fa-8c4a9c67da60/resourceGroups/testing-rg/providers/Microsoft.Network/virtualNetworks/vnet2","@{environment=test}"
